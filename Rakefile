@@ -1,6 +1,9 @@
 require_relative 'config/environment.rb'
 require "sinatra/activerecord/rake"
 
+# task :envirnoment do
+#   require_relative './config/environment.rb'
+# end
 namespace :db do
 
   desc "Migrate the db"
